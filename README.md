@@ -54,7 +54,8 @@ Clone the repo
    
 3. API服务
    * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）<img src="image/2.png"  width="480">
-   * 运行*api_test.py*文件，验证api <img src="image/3.png" width="480">
+   * 运行*api_test.py*文件，验证api
+     <img src="image/3.png">
 
    
   
