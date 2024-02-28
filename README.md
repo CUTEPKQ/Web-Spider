@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="image/spider.jpg" alt="Logo" width="180" height="80">
+    <img src="image/spider.jpg" alt="Logo" width="280" height="180">
   </a>
   <h3 align="center">Weibo_Spider</h3>
   <p align="center">
