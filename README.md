@@ -1,9 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="image/spider.jpg" alt="Logo" width="280" height="180">
-  </a>
+  
+  <img src="image/spider.jpg" alt="Logo" width="280" height="180">
+
   <h3 align="center">Weibo_Spider</h3>
   <p align="center">
     ^_^对微博话题内容进行爬取^_^
