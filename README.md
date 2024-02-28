@@ -47,15 +47,15 @@ Clone the repo
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-1. 在config.json文件中
-   * 将*weibo_cookies*更换为自己的cookies
+1. 在*config.json*文件中
+   * 将weibo_cookies更换为自己的cookies
    * query修改为要查询的话题
    * page 代表要爬取的页数（一页十条数据）
 2. 运行
    * 直接运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间），并将其保存为csv文件
 3. API服务
    * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）
-   * 运行*api_test*文件，验证api
+   * 运行*api_test.py*文件，验证api
   
 
 
