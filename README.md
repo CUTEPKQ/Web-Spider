@@ -14,7 +14,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。后续打算进行多功能拓展(获取用户信息、fac爬取~~~)
+本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
