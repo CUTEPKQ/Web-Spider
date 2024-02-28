@@ -15,7 +15,6 @@
 ## About The Project
 
 本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -41,7 +40,6 @@ Clone the repo
    git clone https://github.com/CUTEPKQ/Web-Spider.git
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -61,12 +59,12 @@ Clone the repo
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * 参考博客(https://blog.csdn.net/m0_72947390/article/details/132832280)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
