@@ -51,6 +51,7 @@ Clone the repo
    * page 代表要爬取的页数（一页十条数据）
 2. 运行
    * 直接运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间），并将其保存为csv文件
+    <img src="image/1.jpg">
 3. API服务
    * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）
    * 运行*api_test.py*文件，验证api
