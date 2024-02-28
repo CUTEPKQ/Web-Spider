@@ -53,9 +53,10 @@ Clone the repo
    * 直接运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间），并将其保存为csv文件
     <img src="image/1.png">
 3. API服务
-   3.1 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）
-   <img src="image/2.png">
-   3.2 运行*api_test.py*文件，验证api
+   * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）<img src="image/2.png">
+   * 运行*api_test.py*文件，验证api
+   
+
    <img src="image/3.png">
   
 
