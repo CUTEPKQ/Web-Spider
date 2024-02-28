@@ -14,7 +14,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。后续打算进行多功能拓展(获取用户信息、facebook爬取~~~)
+本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。后续打算进行多功能拓展(获取用户信息、fac爬取~~~)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -41,13 +41,24 @@ Clone the repo
    git clone https://github.com/CUTEPKQ/Web-Spider.git
    ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+1. 在config.json文件中
+   * 将*weibo_cookies*更换为自己的cookies
+   * query修改为要查询的话题
+   * page 代表要爬取的页数（一页十条数据）
+2. 运行
+   * 直接运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间），并将其保存为csv文件
+3. API服务
+   * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）
+   * 运行*api_test*文件，验证api
+  
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -56,6 +67,6 @@ Clone the repo
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-* [参考博客](https://blog.csdn.net/m0_72947390/article/details/132832280
+* 参考博客(https://blog.csdn.net/m0_72947390/article/details/132832280)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
