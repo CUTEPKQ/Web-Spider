@@ -9,6 +9,7 @@
     },
     "query" : "#苹果发布会#",
     "page" : 2,
+    "user_id" : 1375064863,
     "weibo_header": {
         "authority": "s.weibo.com",
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
