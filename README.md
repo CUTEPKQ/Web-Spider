@@ -61,8 +61,10 @@ Clone the repo
    * 运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间）
      * 爬取的话题信息为 [话题内容,时间,用户昵称,话题网址]
        <img src="image/hua.png" width="780">
-   
-3. API服务
+     * 爬取的用户信息为 [话题内容,时间]
+       <img src="image/user.png" width="780">
+       
+3. API服务(暂未更新user，仅支持话题）
    * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）<img src="image/2.png"  width="480">
    * 运行*api_test.py*文件，验证api
      <img src="image/3.png">
