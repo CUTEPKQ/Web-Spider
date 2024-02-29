@@ -6,7 +6,7 @@
 
   <h3 align="center">Weibo_Spider</h3>
   <p align="center">
-    ^_^对微博话题内容进行爬取^_^
+    ^_^对微博话题和用户进行爬取^_^
   </p>
 </div>
 
@@ -14,7 +14,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-本项目利用python对微博话题进行爬取，同时利用FastAPI进行API的搭建。
+本项目利用python对微博话题和用户进行爬取，同时利用FastAPI进行API的搭建。
+
+**配置文件为config.json**
+* headers 不需要更改
+* cookies 获取方式：进入微博官网(https://weibo.com/), 登录后,F12进入开发者模式，选取Network，Ctrl+R 重新加载，在Name中点击第一个weibo.com，就会有cookies
+* page (int 类型） 代表要爬取的页数
+* user_id (int类型）：用户的Id
+* query ：要查询的话题
 
 
 <!-- GETTING STARTED -->
