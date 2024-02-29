@@ -56,8 +56,10 @@ Clone the repo
    * 将weibo_cookies更换为自己的cookies
    * query修改为要查询的话题
    * page 代表要爬取的页数（一页十条数据）
+   * user_id 微博用户的id,点击用户主页（以浙江大学为例，进入主页，查看网址为https://weibo.com/u/1851755225，所以user_id为1851755225）
 2. 运行
-   * 直接运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间），并将其保存为csv文件 <img src="image/1.png" width="480">
+   * 运行*main.py*文件，可以得到爬取的数据（评论内容、评论时间）
+     * 爬取的话题信息为 [话题内容，时间，用户昵称，话题网址] <img src="image/hua.png" width="480">
    
 3. API服务
    * 运行*api.py*文件，启用api服务（默认host为localhost,端口号为9394，使用前请**确保该端口未被占用**）<img src="image/2.png"  width="480">
